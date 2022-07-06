@@ -55,7 +55,7 @@ try {
 
   var server = new Server(config);
   server.start();
-  console.log("Launching server.");
+  console.log("`🚀 Server ready at: stun:video.platformkit.com:3478");
 } catch (e) {
   console.log(e); // eslint-disable-line no-console
 }
