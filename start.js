@@ -55,6 +55,7 @@ try {
 
   var server = new Server(config);
   server.start();
+  console.log("Launching server.");
 } catch (e) {
   console.log(e); // eslint-disable-line no-console
 }
