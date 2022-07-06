@@ -15,8 +15,8 @@ try {
       configFile = 'C:\\ProgramData\\node-turn.conf';
       break;
     default:
-      logFile = '/var/log/node-turn.log';
-      configFile = '/etc/node-turn/node-turn.conf';
+      logFile = './var/log/node-turn.log';
+      configFile = './etc/node-turn/node-turn.conf';
       break;
   }
 
